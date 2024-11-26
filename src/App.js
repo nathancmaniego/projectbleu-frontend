@@ -2,14 +2,14 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import BarChartComponent from "./LineChart";
-import { Line } from 'react-chartjs-2';
 
 function App() {
     // Sample data for the charts
 
     return (
         <div className="container mt-5">
-            <header className="text-center mb-4">
+            <header className="text-center mb-4 p-3">
+
                 <h1>BlueRoof Optimization System</h1>
                 <p className="lead">Optimizing BlueRoof Systems using Machine Learning!</p>
             </header>
